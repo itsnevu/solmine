@@ -1,0 +1,9 @@
+deploy/k8/biomes.yaml linguist-generated=true
+src/shared/ecs/gen/* linguist-generated=true
+src/server/shared/ecs/gen/* linguist-generated=true
+src/shared/ziki.ts linguist-generated=true
+scratch/alpha_terrain.json linguist-generated=true
+* text=auto eol=lf
+# Git LFS file extension settings.
+scratch/alpha_terrain.json filter=lfs diff=lfs merge=lfs -text
+* !text !filter !merge !diff

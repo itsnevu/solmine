@@ -1,0 +1,171 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.199",
+            "rotation" : [
+                -0.2705981135368347,
+                0.6532814502716064,
+                -0.6532814502716064,
+                0.2705981433391571
+            ],
+            "translation" : [
+                -4.800000190734863,
+                1.599998950958252,
+                -37.81431198120117
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaCutoff" : 0,
+            "alphaMode" : "MASK",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Material.193",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.205",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "test-flower-dandelion-bush-v1"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                0.8485277891159058,
+                1.040276050567627,
+                0.8485281467437744
+            ],
+            "min" : [
+                -2.5455851554870605,
+                -1.0402761697769165,
+                -2.5455846786499023
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 144,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 240,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 384,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 205,
+            "byteOffset" : 420
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 628,
+            "uri" : "data:application/octet-stream;base64,HjlZP4+SCbMoOVm/KDlZv79bzjMkOVk/LTlZvyT3K7Tc6iLA3uoiwIySCbMnOVm/KjnZvn4FhT8gOdk+JDnZPoYFhb80Odm+uMMHwHwFhT/c6qK/3eqiv4UFhb+5wwfA7hSjv8InhT+yrgfAsq4HwMUnhb/lFKO/6JDYPsQnhT8Dkdi+9ZDYvsMnhb/wkNg+JEWUOF77fz///38/Xvt/PyRFlDgAoJQ4//9/PwBAlDgjgZQ4Xvt/PwAAgD9b+38/JUWUOACAlDj//38/AGCUOP//fz8AQJQ4JEWUOACglDj//38/Xvt/PyRFlDhe+38/GscxpwAAgL9nIaIzGscxpwAAgL9nIaIzGscxpwAAgL9nIaIzGscxpwAAgL9nIaIzb8QcPwIAAD9vxBy/b8QcPwIAAD9vxBy/b8QcPwIAAD9vxBy/b8QcPwIAAD9vxBy/z+wcv8o5/z7T7Bw/z+wcv8o5/z7T7Bw/z+wcv8o5/z7T7Bw/z+wcv8o5/z7T7Bw/AAABAAMAAAADAAIABwAGAAQABwAEAAUACwAKAAgACwAIAAkAiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIdJREFUSIljYBgFo2AUjIJRMApGwZABjpNt/jtOtvkP48eftP2PTz0yYCSkAGbY9Q3fGd6/+MZglSHMAOOfaj9DUD9eBTBXy5lBlD069Z9BzoyR4fqG7wzcUhwMDAwMDPtzj+A1g6ALzCpN/jMwMDC8f/GNQVCCi+H9i28MDAwMDIISXET5AACrOCeG2usEhwAAAABJRU5ErkJgggAAAA=="
+        }
+    ]
+}

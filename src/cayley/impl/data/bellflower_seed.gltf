@@ -1,0 +1,277 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.187",
+            "rotation" : [
+                0.27059808373451233,
+                0.6532815098762512,
+                0.6532815098762512,
+                0.2705979645252228
+            ],
+            "translation" : [
+                -1.5999997854232788,
+                1.6000001430511475,
+                -26.633333206176758
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaCutoff" : 0,
+            "alphaMode" : "MASK",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Material.181",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "alphaCutoff" : 0,
+            "alphaMode" : "MASK",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Material.184",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.192",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "TEXCOORD_0" : 5,
+                        "NORMAL" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "oak-root-stage1"
+        },
+        {
+            "bufferView" : 9,
+            "mimeType" : "image/png",
+            "name" : "test-flower-bellflower-bush-v0"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.643467366695404,
+                0.9000001549720764,
+                0.6434672474861145
+            ],
+            "min" : [
+                -0.6293250918388367,
+                -0.9000001549720764,
+                -0.6293252110481262
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                3.111269950866699,
+                1.0402764081954956,
+                3.1112701892852783
+            ],
+            "min" : [
+                -0.848528265953064,
+                -1.040276288986206,
+                -0.8485283851623535
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 48,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 80,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 128,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 153,
+            "byteOffset" : 140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 296,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 440,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 680,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 106,
+            "byteOffset" : 716
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 824,
+            "uri" : "data:application/octet-stream;base64,R7okP2NmZj91GyG/bxshv2lmZj8/uiQ/Q7okP2lmZr9vGyG/cxshv2NmZr9FuiQ/AAAAAAAAgD8AAIA/AACAPwAAAAAAAAAAAACAPwAAAADyBDU/DjxJM/UENT/yBDU/DjxJM/UENT/yBDU/DjxJM/UENT/yBDU/DjxJM/UENT8AAAEAAwAAAAMAAgCJUE5HDQoaCgAAAA1JSERSAAAAEgAAABIIBgAAAFbOjlcAAAABc1JHQgCuzhzpAAAAU0lEQVQ4jWNgGAUjGDDik+wPM/3Pw83KwMDAwPDl62+GwlWncapnwWcQDzcrw50n7xgYGBgYVGSE8LqICa8sCQCvi758/Q13yZevv6ll5ygYfgAAhiwQQllRGgkAAAAASUVORK5CYIIAAAAgOVk/MN6UtCg5Wb8mOVm/IPNkNCA5WT8MH0dAvJzks/QEtT/2BLU/kjDONA0fR0A0Odm+fAWFvx452T4sOdk+hAWFP0A52b49U+s/egWFv+n3K0Dq9ytAgwWFPzlT6z/i4itAxCeFv0196z9Kfes/xyeFP+HiK0DukNg+xieFv/SQ2L70kNi+xSeFP92Q2D4kRZQ4Xvt/P///fz9e+38/JEWUOACglDj//38/AECUOCOBlDhe+38/AACAP1v7fz8lRZQ4AICUOP//fz8AYJQ4//9/PwBAlDgkRZQ4AKCUOP//fz9e+38/JEWUOF77fz+GSeUz//9/P3a1Q7SGSeUz//9/P3a1Q7SGSeUz//9/P3a1Q7SGSeUz//9/P3a1Q7RuxBw/BwAAv2zEHL9uxBw/BwAAv2zEHL9uxBw/BwAAv2zEHL9uxBw/BwAAv2zEHL/T7By/wzn/vtPsHD/T7By/wzn/vtPsHD/T7By/wzn/vtPsHD/T7By/wzn/vtPsHD8AAAEAAwAAAAMAAgAHAAYABAAHAAQABQALAAoACAALAAgACQCJUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAABc1JHQgCuzhzpAAAAJElEQVRIiWNgGAWjYBSMglEwCkbBKBh+oMLX6H+mtex/UvQAALvwA7f6NAYSAAAAAElFTkSuQmCCAAA="
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.171",
+            "rotation" : [
+                0.27059808373451233,
+                0.6532815098762512,
+                0.6532815098762512,
+                0.2705979645252228
+            ],
+            "translation" : [
+                4.800000190734863,
+                1.6000001430511475,
+                -33.0333366394043
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaCutoff" : 0,
+            "alphaMode" : "MASK",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Material.173",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.146",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "apple"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                3.111269950866699,
+                1.0402764081954956,
+                3.1112701892852783
+            ],
+            "min" : [
+                -0.848528265953064,
+                -1.040276288986206,
+                -0.8485283851623535
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 144,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 240,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 384,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 722,
+            "byteOffset" : 420
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1144,
+            "uri" : "data:application/octet-stream;base64,IDlZPzDelLQoOVm/JjlZvyDzZDQgOVk/DB9HQLyc5LP0BLU/9gS1P5IwzjQNH0dANDnZvnwFhb8eOdk+LDnZPoQFhT9AOdm+PVPrP3oFhb/p9ytA6vcrQIMFhT85U+s/4uIrQMQnhb9Nfes/Sn3rP8cnhT/h4itA7pDYPsYnhb/0kNi+9JDYvsUnhT/dkNg+JEWUOF77fz///38/Xvt/PyRFlDgAoJQ4//9/PwBAlDgjgZQ4Xvt/PwAAgD9b+38/JUWUOACAlDj//38/AGCUOP//fz8AQJQ4JEWUOACglDj//38/Xvt/PyRFlDhe+38/hknlM///fz92tUO0hknlM///fz92tUO0hknlM///fz92tUO0hknlM///fz92tUO0bsQcPwcAAL9sxBy/bsQcPwcAAL9sxBy/bsQcPwcAAL9sxBy/bsQcPwcAAL9sxBy/0+wcv8M5/77T7Bw/0+wcv8M5/77T7Bw/0+wcv8M5/77T7Bw/0+wcv8M5/77T7Bw/AAABAAMAAAADAAIABwAGAAQABwAEAAUACwAKAAgACwAIAAkAiVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAAXNSR0IArs4c6QAAAoxJREFUSIntlTFIG2EUx38JJUdFyFBII3fkILhlEYSk3JJBsVMQBAcdXF0qhU4umbrUpSh2ce3iIAiSqaBDEEINBFy6SfAkh0egQ0CUC8WvQ3wfd3oJth265C3J9933/u///u9/38E4xjGOcfz/SPxL8lZhQZUtgw/Fn9jFCQD2K8cRzL8qsFKbVwAzm0kAzj/dx4L/MdvvbytK1k7VUSu1eZVfKyin6qhheclhDFdq8zpRfuudQP/33R4zm0nWWyaNj42hzGMLvP/ykpnNpNYV4Gjphr1ZD4D8WkFl7TQAZcsY2jXEzMCpOmrxcBKAvVmPrJ3WDK25aZVzMvhuD4CsnR463NgCYS0FJAx0un2JFGh//ZGQnFFFnmyIQ2DgkrJlsPPuDoCzg2tEGiEhhUS2x8Vi2xJWYRu6zVsNmrXTGjxs2bJlsPq6rYuO7MBt3mqwx8BABCQ8t6Olm0gXL+TQVmFBAZxzr8HXWya0Bkl9LwAb+l5AzslQeiCyXzlO+G6P3WyXlGlQKk5FJNI2FbsJeN8L9J6w9t0eKdPQ8zg7uNbap0yD0vIUbvM2MmzdgQzSP3iQxYZVt03/V8BGKz/QlzZ9L+DK6wKw4Q/2d5bvtMR2cYJGSHLdwX7lOBF2ibAWxvVOoJNyToack9H7p9uXLB5OalOEIwFPB1taHuh4un0ZOSzFYDCLlGloQouHk5QtgzffavG3qVN11OfmK+qdQNtSZiFsZR0XUmzkeyBOKlsG9U7Abratwa8aXd2B2DVcfNiFFxFtb9bjaOlG650yDXy3x1Wjq8+I/7N2ms7JRUJmNerK1gecqqPyawUVXstza25aP3sW4EM86wtkzU0rkafvBXROLp795foNUuBbA6jT0+4AAAAASUVORK5CYIIAAA=="
+        }
+    ]
+}
